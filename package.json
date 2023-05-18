@@ -1,9 +1,9 @@
 {
-	"name": "agda-mode",
-	"displayName": "agda-mode",
-	"description": "agda-mode on vscode",
-	"publisher": "banacorn",
-	"version": "0.3.11",
+	"name": "agda-mode-fork",
+	"displayName": "agda-mode-fork",
+	"description": "agda-mode (fork) on vscode",
+	"publisher": "GuilhermeEspada",
+	"version": "0.3.12",
 	"engines": {
 		"vscode": "^1.41.0"
 	},
@@ -15,7 +15,7 @@
 		"onCommand:agda-mode.input-symbol[Activate]"
 	],
 	"main": "./dist/app.bundle.js",
-	"repository": "https://github.com/banacorn/agda-mode-vscode",
+	"repository": "https://github.com/GUIpsp/agda-mode-vscode",
 	"scripts": {
 		"clean": "npx rescript clean",
 		"build": "npx rescript build -with-deps && npx lessc style/style.less dist/style.css && webpack --mode development",
